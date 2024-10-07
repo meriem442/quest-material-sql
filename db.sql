@@ -8,3 +8,4 @@ CREATE TABLE `wild_db_quest`.`wizard`
     `biography`   TEXT         NULL,
     PRIMARY KEY (`id`)
 );
+ALTER TABLE wizard ADD is_muggel Type booléen;
