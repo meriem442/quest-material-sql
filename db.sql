@@ -8,3 +8,12 @@ CREATE TABLE `wild_db_quest`.`wizard`
     `biography`   TEXT         NULL,
     PRIMARY KEY (`id`)
 );
+CREATE TABLE`wild_db_quest`.`school`
+(
+    `id`        INT          NOT NULL AUTO INCREMENT,
+    `name`      VARCHAR(100) NOT NULL,
+    `capacity`  INT   NULL,
+    `cauntry`   VARCHAR(255)  NULL,
+    PRIMARY KEY (`id`)
+    );
+    
